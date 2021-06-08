@@ -1,0 +1,24 @@
+/*Footer*/
+#footer {
+  font-family: Courier New;
+  font-size: 1.02em;
+  border: 1px solid black;
+  padding: 1vw;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+#footer a:hover {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 960px) {
+  /*Header og footer*/
+  #footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
