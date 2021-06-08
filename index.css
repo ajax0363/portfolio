@@ -1,0 +1,27 @@
+#section_one img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20%;
+  width: auto;
+}
+
+.nav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+}

@@ -1,5 +1,8 @@
 /*Footer*/
 #footer {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
   font-family: Courier New;
   font-size: 1.02em;
   border: 1px solid black;
@@ -16,9 +19,4 @@
 }
 
 @media (min-width: 960px) {
-  /*Header og footer*/
-  #footer {
-    display: flex;
-    justify-content: space-between;
-  }
 }
