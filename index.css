@@ -114,16 +114,20 @@ p {
   text-decoration: underline;
 }
 
-/* 02_web */
+/* 02_web + 03_UX + 04_animation + 05_indhold*/
 
 .container_2,
-.container_3 {
+.container_3,
+.container_4,
+.container_5 {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
 .container_2 img,
-.container_3 img {
+.container_3 img,
+.container_4 img,
+.container_5 img {
   grid-column: 2/3;
 }
 
@@ -221,16 +225,20 @@ p {
     margin: 0% auto;
   }
 
-  /* 02_web */
+  /* 02_web + 03_UX + 04_animation + 05_indhold*/
 
   .container_2,
-  .container_3 {
+  .container_3,
+  .container_4,
+  .container_5 {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
   }
 
   .container_2 img,
-  .container_3 img {
+  .container_3 img,
+  .container_4 img,
+  .container_5 img {
     grid-column: 2/3;
   }
 
