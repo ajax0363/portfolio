@@ -37,6 +37,12 @@ img {
   height: auto;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 #section_two .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -168,6 +174,13 @@ p {
 
 #section_five p a:hover {
   color: rgb(122, 121, 121);
+}
+
+/* about */
+
+#section_gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media only screen and (min-width: 600px) {
