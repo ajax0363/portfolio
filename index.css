@@ -175,6 +175,11 @@ video {
   grid-template-columns: repeat(2, 1fr);
   gap: 0.3rem;
 }
+#section_gallery_2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.3rem;
+}
 
 main {
   margin: 2rem;
