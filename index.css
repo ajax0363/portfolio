@@ -1,4 +1,8 @@
 /* Forside */
+* {
+  box-sizing: border-box;
+}
+
 #section_one {
   place-items: center;
   height: 100%;
@@ -32,12 +36,17 @@ h2 {
   text-align: center;
 }
 
+.port_container {
+  position: relative;
+  top: -200vw;
+  left: 0vw;
+}
+
 /* Work */
 .box {
   position: relative;
   width: 80%;
   display: grid;
-  max-width: 500px;
 }
 
 .image {
@@ -99,6 +108,11 @@ li a {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .port_container {
+    position: relative;
+    top: -29vw;
+    left: 0vw;
   }
 
   /* work */
