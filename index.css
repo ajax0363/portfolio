@@ -144,6 +144,28 @@ p {
   gap: 1rem;
 }
 
+/* contact */
+
+#section_five p,
+#section_six p {
+  text-align: center;
+}
+
+#section_five h3,
+#section_six h3 {
+  font-size: 1.5rem;
+  font-family: Oswald;
+}
+
+#section_five p a {
+  text-decoration: none;
+  color: black;
+}
+
+#section_five p a:hover {
+  color: rgb(122, 121, 121);
+}
+
 @media only screen and (min-width: 600px) {
   img {
     width: 100%;
