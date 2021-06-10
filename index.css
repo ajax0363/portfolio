@@ -180,6 +180,10 @@ video {
   grid-template-columns: repeat(5, 1fr);
   gap: 0.3rem;
 }
+#section_seven {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
 
 main {
   margin: 2rem;
